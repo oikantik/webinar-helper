@@ -1,0 +1,19 @@
+{
+  "name": "webinar",
+  "version": "1.0.0",
+  "description": "This is a package for StealthSeminar users for showing webinar date and time, countdown and calendar .",
+  "main": "viewer-information.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oikantik/webinar-helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oikantik/webinar-helper/issues"
+  },
+  "homepage": "https://github.com/oikantik/webinar-helper#readme"
+}
