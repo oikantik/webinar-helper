@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.ss-datetime {
+  font-family: "Roboto", sans-serif;
+}
+
+.ss-countdown__days,
+.ss-countdown__hours,
+.ss-countdown__minutes,
+.ss-countdown__seconds {
+  background: #000;
+  padding: 1rem;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.ss-countdown__days,
+.ss-countdown__hours,
+.ss-countdown__minutes {
+  margin-right: 0.25rem;
+}
+
+.ss-countdown__hours,
+.ss-countdown__minutes,
+.ss-countdown__seconds {
+  margin-left: 0.25rem;
+}
+
+.ss-calendar__container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.ss-calendar__container-left {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+  margin-right: 1rem;
+}
+
+.ss-calendar__container-right {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+}
+
+.ss-calendar__date {
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.725rem;
+}
+
+.ss-calendar__day {
+  padding: 0.725rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.ss-calendar__weekday-month {
+  font-weight: bold;
+  margin-bottom: 0.275rem;
+}
