@@ -3,7 +3,7 @@ This is a package for StealthSeminar users for showing webinar date and time, co
 Add this to the header section of your page
 
 ```
-https://unpkg.com/webinar@1.0.0/viewer-information.css
+https://cdn.jsdelivr.net/gh/oikantik/webinar-helper/viewer-information.css
 ```
 
 This package is dependent on DayJS heavily. These are the dependencies:
@@ -23,7 +23,7 @@ Make sure to put these before the end of the body section.
 And then add this package.
 
 ```
-https://unpkg.com/webinar@1.0.0/viewer-information.js
+https://cdn.jsdelivr.net/gh/oikantik/webinar-helper/viewer-information.js
 ```
 
 Now you can use these
