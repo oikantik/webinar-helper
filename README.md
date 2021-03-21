@@ -1,3 +1,5 @@
+![Demo](https://dl.dropboxusercontent.com/s/fga5zt6bunel7lk/simple.png)
+
 This is a package for StealthSeminar users for showing webinar date and time, countdown and calendar .
 
 Add this to the header section of your page
