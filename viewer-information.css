@@ -1,14 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+.ss-links a {
+  background: #1a9dd0;
+  padding: 0.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
 .ss-datetime {
   font-family: "Roboto", sans-serif;
+}
+
+.ss-countdown {
+  display: flex;
+}
+
+.ss-countdown__label {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.625rem;
+}
+
+.ss-countdown__days-container,
+.ss-countdown__hours-container,
+.ss-countdown__minutes-container,
+.ss-countdown__seconds-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ss-countdown__days,
 .ss-countdown__hours,
 .ss-countdown__minutes,
 .ss-countdown__seconds {
-  background: #000;
+  margin-bottom: 0.225rem;
+  background: #1a9dd0;
   padding: 1rem;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -37,7 +65,7 @@
   width: 80px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #000000;
+  border: 1px solid #1a9dd0;
   margin-right: 1rem;
 }
 
@@ -48,7 +76,7 @@
 }
 
 .ss-calendar__date {
-  background: #000000;
+  background: #1a9dd0;
   color: #ffffff;
   text-align: center;
   padding: 0.5rem;
@@ -65,4 +93,17 @@
 .ss-calendar__weekday-month {
   font-weight: bold;
   margin-bottom: 0.275rem;
+}
+
+/* Add this event override */
+
+.addeventatc {
+  font-size: 12px !important;
+  padding: 12.5px 12px 12px 33px !important;
+}
+
+.addeventatc .addeventatc_icon {
+  left: 12px !important;
+  top: 12px !important;
+  background-size: 12px 12px !important;
 }
